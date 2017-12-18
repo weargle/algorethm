@@ -1,3 +1,5 @@
+package sort;
+
 public class Selection {
 
     public static void main(String args[]) {
@@ -31,12 +33,16 @@ public class Selection {
 
         System.out.println();
 
-        String[] parat3 = new String[] {"C", "B", "D", "A"};
+        Student[] parat4 = new Student[4];
+        parat4[0] = new Student("D", 99);
+        parat4[1] = new Student("C", 100);
+        parat4[2] = new Student("B", 98);
+        parat4[3] = new Student("A", 98);
 
-        sort(parat3, parat3.length);
+        sort(parat4, parat4.length);
 
-        for (int i = 0; i < parat3.length; i++) {
-            System.out.print(parat3[i] + " ");
+        for (int i = 0; i < parat4.length; i++) {
+            System.out.println(parat4[i] + " ");
         }
     }
 
