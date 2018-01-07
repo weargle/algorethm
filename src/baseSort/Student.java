@@ -1,4 +1,4 @@
-package sort;
+package baseSort;
 
 public class Student implements Comparable<Student> {
 
